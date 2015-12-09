@@ -694,7 +694,7 @@ static const CGFloat SVProgressHUDUndefinedProgress = -1;
     activeHeight -= keyboardHeight;
     
     CGFloat posX = CGRectGetWidth(orientationFrame)/2.0f;
-    CGFloat posY = floorf(activeHeight*0.45f);
+    CGFloat posY = floorf(activeHeight*0.5f);
 
     CGFloat rotateAngle = 0.0;
     CGPoint newCenter = CGPointMake(posX, posY);
